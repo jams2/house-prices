@@ -34,6 +34,19 @@
    :accessor transaction-id)
    (price
     :initarg :price
-    :accessor price))
+    :accessor price)
+   (date
+    :initarg :date
+    :accessor date)
+   (postcode
+    :initarg :postcode
+    :accessor postcode)
+   (property-type
+    :initarg :property-type
+    :accessor property-type)
+   (is-newbuild
+    :initarg :is-newbuild
+    :accessor is-newbuild)
+   (duration))
   
   )
