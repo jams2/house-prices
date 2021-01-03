@@ -29,7 +29,11 @@
      ,@forms))
 
 (defclass transaction ()
-  (transaction-id
+  ((transaction-id
    :initarg :transaction-id
    :accessor transaction-id)
+   (price
+    :initarg :price
+    :accessor price))
+  
   )
